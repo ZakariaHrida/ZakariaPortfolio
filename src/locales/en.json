@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "portfolio": "Hrida Zakaria"
+  },
+  "hero": {
+    "welcome": "Welcome to my portfolio",
+    "greeting": "Hi, I'm",
+    "name": "Hrida Zakaria",
+    "title": "Full Stack Developer",
+    "description": "I create beautiful, functional, and user-centered digital experiences. Passionate about clean code and elegant solutions.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "subtitle": "About Me",
+    "title": "Let me introduce myself",
+    "bio1": "I'm a passionate full-stack developer who loves building web applications and digital solutions. I love turning complex problems into simple, beautiful, and intuitive designs.",
+    "bio2": "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
+    "bio3": "My goal is to always build applications that are scalable, efficient, and provide great user experiences.",
+    "skillsTitle": "Skills & Technologies"
+  },
+  "projects": {
+    "subtitle": "My Work",
+    "title": "Featured Projects",
+    "viewCode": "View Code",
+    "live": "Live",
+    "viewProject": "View Project →",
+    "items": [
+      {
+        "title": "E-Commerce Platform Jota",
+        "description": "A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard. Built with modern technologies for scalability and performance.",
+        "demoUrl": "https://github.com/ZakariaHrida/E-Commerce-website-Jota",
+        "liveUrl": "https://example.com"
+      },
+      {
+        "title": "Game jumpyFrog",
+        "description": "JumpyFrog is a simple arcade game made with Python and Pygame where you control a frog that jumps across obstacles and tries to reach the highest score. Fast, fun, and easy to play.",
+        "demoUrl": "https://github.com/ZakariaHrida/jumpy-frog",
+        "liveUrl": "https://example.com"
+      },
+      {
+        "title": "Weather Dashboard",
+        "description": "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics. Responsive design for all devices.",
+        "demoUrl": "https://github.com/ZakariaHrida/weather-app",
+        "liveUrl": "https://zakariahrida.github.io/weather-app/"
+      },
+      {
+        "title": "To-Do-List App",
+        "description": "Web application to manage and track daily tasks with a simple interface, task marking, and local storage.",
+        "demoUrl": "https://github.com/ZakariaHrida/To-do-list",
+        "liveUrl": "https://zakariahrida.github.io/To-do-list/"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "A modern, responsive portfolio website showcasing projects and skills. Built with performance and SEO in mind.",
+        "demoUrl": "https://demo.example.com",
+        "liveUrl": "https://example.com"
+      }
+    ]
+  },
+  "experience": {
+    "subtitle": "My Journey",
+    "title": "Experience & Education",
+    "items": [
+      {
+        "type": "education",
+        "title": "Diploma Full Stack Developer",
+        "company": "Institut Spécialisé de Technologie Appliquée (ISTA) NTIC 2 SM",
+        "location": "Casablanca, Morocco",
+        "period": "2024 - ...",
+        "description": "Focused on modern web technologies, software engineering, and full-stack development. Strengthened skills in front-end, back-end, databases, and application architecture while building real-world projects."
+      },
+      {
+        "type": "education",
+        "title": "Certificate in Introduction to PHP",
+        "company": "simplilearn",
+        "location": "Online",
+        "period": "02/12/2025",
+        "description": "Completed an online certificate in Introduction to PHP from Simplilearn, gaining foundational skills in PHP programming and web development. https://simpli-web.app.link/e/30gHN3bTNYb"
+      },
+      {
+        "type": "education",
+        "title": "Certificate in English",
+        "company": "EF SET",
+        "location": "Online",
+        "period": "02/12/2025",
+        "description": "Achieved a C1 English proficiency certificate from EF SET, demonstrating advanced skills in reading, writing, listening, and speaking. https://cert.efset.org/en/ZEpdVm"
+      },
+      {
+        "type": "education",
+        "title": "Bachelor of Science in Physics",
+        "company": "Mohammed VI High School",
+        "location": "Casablanca, Morocco",
+        "period": "2022 - 2023",
+        "description": "Focused on physical sciences with a practical approach to scientific concepts. Developed strong skills in logic, analysis, and scientific methodology. Graduated with honors."
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "Let's Work Together",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "Your Message",
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "successMessage": "Thank you for your message! I will get back to you soon.",
+    "connectTitle": "Let's Connect",
+    "connectDescription": "I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!",
+    "socialLinks": "Social Links",
+    "responseTime": "Response Time:",
+    "responseTimeDescription": "I typically respond within 24-48 hours."
+  },
+  "footer": {
+    "copyright": "© {year} Developer Portfolio. All rights reserved.",
+    "builtWith": "Built with React, Vite, TailwindCSS & Framer Motion"
+  }
+}
+

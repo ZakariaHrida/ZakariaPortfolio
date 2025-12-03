@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "contact": "Contact",
+    "portfolio": "Hrida Zakaria"
+  },
+  "hero": {
+    "welcome": "Bienvenue sur mon portfolio",
+    "greeting": "Bonjour, je suis",
+    "name": "Hrida Zakaria",
+    "title": "Développeur Full Stack",
+    "description": "Je crée des expériences numériques belles, fonctionnelles et centrées sur l'utilisateur. Passionné par le code propre et les solutions élégantes.",
+    "viewWork": "Voir mon travail",
+    "getInTouch": "Me contacter",
+    "downloadCV": "Télécharger le CV"
+  },
+  "about": {
+    "subtitle": "À propos de moi",
+    "title": "Laissez-moi me présenter",
+    "bio1": "Je suis un développeur full stack passionné par la création d'applications web et de solutions numériques. J'adore transformer des problèmes complexes en designs simples, beaux et intuitifs.",
+    "bio2": "Quand je ne code pas, vous pouvez me trouver en train d'explorer de nouvelles technologies, de contribuer à des projets open-source, ou de partager des connaissances avec la communauté des développeurs.",
+    "bio3": "Mon objectif est de toujours créer des applications qui sont évolutives, efficaces et offrent de grandes expériences utilisateur.",
+    "skillsTitle": "Compétences et Technologies"
+  },
+  "projects": {
+    "subtitle": "Mon travail",
+    "title": "Projets en vedette",
+    "viewCode": "Voir le Code",
+    "live": "Live",
+    "viewProject": "Voir le projet →",
+    "items": [
+      {
+        "title": "Plateforme E-Commerce jota",
+        "description": "Une solution e-commerce full-stack avec intégration de paiement, authentification utilisateur et tableau de bord administrateur. Construite avec des technologies modernes pour l'évolutivité et les performances.",
+        "demoUrl": "https://github.com/ZakariaHrida/E-Commerce-website-Jota",
+        "liveUrl": "https://example.com"
+      },
+      {
+        "title": "Game jumpyFrog",
+        "description": "JumpyFrog is a simple arcade game made with Python and Pygame where you control a frog that jumps across obstacles and tries to reach the highest score. Fast, fun, and easy to play.",
+        "demoUrl": "https://github.com/ZakariaHrida/jumpy-frog",
+        "liveUrl": "https://example.com"
+      },
+      {
+        "title": "Tableau de Bord Météo",
+        "description": "Un magnifique tableau de bord météorologique avec prévisions basées sur la localisation, cartes interactives et analyses météorologiques détaillées. Design responsive pour tous les appareils.",
+        "demoUrl": "https://github.com/ZakariaHrida/weather-app",
+        "liveUrl": "https://zakariahrida.github.io/weather-app/"
+      },
+      {
+        "title": "To-Do-List App",
+        "description": "Application web pour gérer et suivre vos tâches quotidiennes avec interface simple, marquage des tâches et stockage local.",
+        "demoUrl": "https://github.com/ZakariaHrida/To-do-list",
+        "liveUrl": "https://zakariahrida.github.io/To-do-list/"
+      },
+      {
+        "title": "Site Web Portfolio",
+        "description": "Un site web portfolio moderne et responsive présentant des projets et des compétences. Construit en pensant à la performance et au SEO.",
+        "demoUrl": "https://demo.example.com",
+        "liveUrl": "https://example.com"
+      }
+    ]
+  },
+  "experience": {
+    "subtitle": "Mon parcours",
+    "title": "Expérience et Formation",
+    "items": [
+      {
+        "type": "education",
+        "title": "Diplôme en Développement Full Stack",
+        "company": "Institut Spécialisé de Technologie Appliquée (ISTA) NTIC 2 SM",
+        "location": "Casablanca, Maroc",
+        "period": "2024 - ...",
+        "description": "Axé sur les technologies web modernes, l’ingénierie logicielle et le développement full stack. Renforcement des compétences en front-end, back-end, bases de données et architecture d’applications à travers des projets réels."
+      },    
+      {
+        "type": "education",
+        "title": "Certificate in Introduction to PHP",
+        "company": "simplilearn",
+        "location": "Online",
+        "period": "02/12/2025",
+        "description": "Certificat en ligne d’introduction à PHP obtenu sur Simplilearn, acquérant des compétences de base en programmation PHP et développement web. https://simpli-web.app.link/e/30gHN3bTNYb"
+      },
+      {
+        "type": "education",
+        "title": "Certificate in English",
+        "company": "EF SET",
+        "location": "Online",
+        "period": "02/12/2025",
+        "description": "Certificat de maîtrise de l’anglais niveau C1 obtenu auprès de l’EF SET, démontrant des compétences avancées en lecture, écriture, compréhension et expression orale. https://cert.efset.org/en/ZEpdVm"
+      },
+      {
+        "type": "education",
+        "title": "Baccalauréat en Sciences Physiques",
+        "company": "Lycée Mohammed VI",
+        "location": "Casablanca, Morocco",
+        "period": "2022 - 2023",
+        "description": "Formation axée sur les sciences physiques avec une approche pratique des concepts scientifiques. Compétences développées en logique, analyse et méthodologie scientifique. Diplômé avec mention."
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Me contacter",
+    "title": "Travaillons ensemble",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "messagePlaceholder": "Votre message",
+    "sending": "Envoi en cours...",
+    "sendMessage": "Envoyer le message",
+    "successMessage": "Merci pour votre message ! Je vous répondrai bientôt.",
+    "connectTitle": "Restons en contact",
+    "connectDescription": "Je suis toujours intéressé par de nouveaux projets et opportunités. Que vous ayez une question ou que vous souhaitiez simplement dire bonjour, n'hésitez pas à me contacter !",
+    "socialLinks": "Liens sociaux",
+    "responseTime": "Temps de réponse :",
+    "responseTimeDescription": "Je réponds généralement dans les 24 à 48 heures."
+  },
+  "footer": {
+    "copyright": "© {year} Portfolio Développeur. Tous droits réservés.",
+    "builtWith": "Construit avec React, Vite, TailwindCSS & Framer Motion"
+  }
+}
+
