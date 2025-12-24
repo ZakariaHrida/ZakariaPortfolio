@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Section from '../components/Section'
 import { useLanguage } from '../contexts/LanguageContext'
 
+import emailjs from '@emailjs/browser'
+
 const Contact = () => {
   const { t, language } = useLanguage()
   const [formData, setFormData] = useState({
@@ -24,18 +26,32 @@ const Contact = () => {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      await emailjs.send(
+        'service_84qmaee', 
+        'template_u1m8off', 
+        {
+          from_name: formData.name,
+          reply_to: formData.email,
+          message: formData.message,
+        },
+        '-bKT6PUJE4iUOwc7i'
+      )
+
       alert(t('contact.successMessage'))
       setFormData({ name: '', email: '', message: '' })
+    } catch (error) {
+      console.error('EmailJS Error:', error)
+      alert('Failed to send message. Please check your connection or try again.')
+    } finally {
       setIsSubmitting(false)
-    }, 1000)
+    }
   }
 
   const socialLinks = [
     { name: 'GitHub', url: 'https://github.com/ZakariaHrida', icon: '🐙' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/zakaria-hrida/', icon: '💼' },
-    { name: 'WathsApp', url: 'https://wa.me/212688772928', icon: '📱' },
+    { name: 'WhatsApp', url: 'https://wa.me/212688772928', icon: '📱' },
     { name: 'Email', url: 'mailto:zakariahrida05@gmail.com', icon: '📧' },
   ]
 
